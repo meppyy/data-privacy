@@ -1,13 +1,17 @@
 # Practical 7: Privacy-Enhancing Technologies (PETs)
 
-### Aim - To explore Privacy-Enhancing Technologies (PETs) such as VPNs, Tor and secure messaging applications, and evaluate their effectiveness in protecting user privacy.
+## Aim 
 
-### Technologies Selected
+To explore Privacy-Enhancing Technologies (PETs) such as VPNs, Tor and secure messaging applications, and evaluate their effectiveness in protecting user privacy.
+
+## Technologies Selected
+
 1. VPN (Virtual Private Network)
 2. Tor (The Onion Router)
 3. Signal - secure messaging application
 
-### Requirements
+## Requirements
+
 - Computer/Laptop
 - Internet connection
 - Web browser
@@ -16,13 +20,15 @@
 - Signal application
 - Basic knowledge of network and data privacy
 
-### Introduction
+## Introduction
+
 Privacy-Enhancing Technologies (PETs) are technologies designed to reduce the collection, exposure or misuse of personal information.
 - **VPN**: Encrypts network traffic between the device and VPN server and can hide the user's IP address from websites.
 - **Tor**: Routes traffic through multiple relays to provide stronger anonymity.
 - **Signal**: Uses end-to-end encryption to protect the contents of messages and calls.
 
-### Procedure
+## Procedure
+
 1. Study the working principles of VPN, Tor and Signal.
 2. Examine what type of user information each technology protects.
 3. Compare their privacy and security features.
@@ -30,7 +36,8 @@ Privacy-Enhancing Technologies (PETs) are technologies designed to reduce the co
 5. Evaluate their effectiveness for different use cases.
 6. Record the observations.
 
-### Obersvation Table
+## Obersvation Table
+
 | PET        | Privacy Protection                                                                   | Advantages                                                                | Limitations                                                                                                                 |
 | ---------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | **VPN**    | Hides IP address from websites and encrypts traffic between the user and VPN server. | Useful on public networks; protects network traffic from local observers. | VPN provider can potentially observe connection information; does not provide complete anonymity.                           |
@@ -46,8 +53,10 @@ Privacy-Enhancing Technologies (PETs) are technologies designed to reduce the co
 
 **Note**: No PET provides complete privacy by itself. Their effectiveness depends on correct configuration, user behavior and the specific privacy threat being considered.
 
-### Result
+## Result
+
 VPN, Tor and Signal were studied as examples of Privacy-Enhancing Technologies. Each provides protection against different privacy threats, with VPNs focusing on network privacy, Tor on anonymity and Signal on private communication.
 
-### Conclusion
+## Conclusion
+
 Privacy-Enhancing Technologies can significantly improve user privacy when used appropriately. However, each technology has limitations, so the choice of PET should depend on the specific privacy requirement and threat being addressed.
