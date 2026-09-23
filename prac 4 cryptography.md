@@ -1,14 +1,18 @@
 # Practical 4: Cryptography
 
-### Aim - To study different cryptographic techniques such as encryption, hashing and digital signatures, and implement them using a real-world application.
+## Aim 
 
-### Requirements 
+To study different cryptographic techniques such as encryption, hashing and digital signatures, and implement them using a real-world application.
+
+## Requirements 
+
 - Computer/laptop
 - Python 3.x
 - VS Code / Google Colab / Juypter Notebook
 - Python Cryptography Library
 
-### Introduction
+## Introduction
+
 Cryptography is the technique of protecting information by converting it into a form that prevents unauthorized access or modification.
 
 The major techniques used are: 
@@ -16,7 +20,8 @@ The major techniques used are:
 - **Hashing**: Converts data into a fixed-length hash value to verify data integrity.
 - **Digital Signature**: Uses cryptography to verify the authenticity and integrity of a message or document.
 
-### Procedure
+## Procedure
+
 1. Install the required Python cryptography library.
 2. Create a sample message representing sensitive information.
 3. Encrypt the message using a symmetric encryption algorithm.
@@ -28,8 +33,10 @@ The major techniques used are:
 9. Verify the signature using the corresponding public key.
 10. Observe and record the results.
 
-### Implementation
-**A. Encryption and Decryption**
+## Implementation
+
+### **A. Encryption and Decryption**
+
 ```
 from cryptography.fernet import Fernet
 
@@ -45,9 +52,11 @@ print("Original:", message)
 print("Encrypted:", encrypted)
 print("Decrypted:", decrypted)
 ```
+
 Result: The original message is converted into ciphertext and can be recovered using the correct key.
 
-**B. Hashing**
+### **B. Hashing**
+
 ```
 import hashlib
 
@@ -57,9 +66,11 @@ hash_value = hashlib.sha256(message.encode()).hexdigest()
 
 print("SHA-256 Hash:", hash_value)
 ```
+
 Result: A fixed-length SHA-256 hash is generated for the message.
 
-**C. Digital Signature**
+### **C. Digital Signature**
+
 ```
 from cryptography.hazmat.primitives.asymmetric import rsa, padding
 from cryptography.hazmat.primitives import hashes
@@ -94,9 +105,11 @@ public_key.verify(
 
 print("Digital Signature: Valid")
 ```
+
 Result: The digital signature is successfully verified, confirming the authenticity and integrity of the message.
 
-### Applications
+## Applications
+
 | Technique               | Real-World Application                          |
 | ----------------------- | ----------------------------------------------- |
 | Encryption              | Secure messaging, online banking, HTTPS         |
@@ -106,8 +119,10 @@ Result: The digital signature is successfully verified, confirming the authentic
 | Asymmetric Cryptography | Secure key exchange and authentication          |
 
 
-### Results
+## Results
+
 Encryption, hashing and digital signatures were successfully studied and implemented using Python. Encryption provided confidentiality, hashing provided integrity verification, and digital signatures provided authentication and integrity.
 
-### Conclusion
+## Conclusion
+
 Cryptographic techniques are essential for securing modern digital systems. Encryption protects information from unauthorized access, hashing detects changes to data, and digital signatures verify the authenticity and integrity of digital information.
