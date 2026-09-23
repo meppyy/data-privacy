@@ -1,8 +1,10 @@
 # Practical 1: Data Privacy Audit of Meta
 
-### Aim - To conduct a data privacy audit of Meta and identify potential vulnerabilities and risks in its data privacy practices, including data collection, data usage, third-party sharing, user consent, security, and data deletion.
+## Aim 
 
-### Website selected
+To conduct a data privacy audit of Meta and identify potential vulnerabilities and risks in its data privacy practices, including data collection, data usage, third-party sharing, user consent, security, and data deletion.
+
+## Website selected
 
 | Particular              | Details                                                                    |
 | ----------------------- | -------------------------------------------------------------------------- |
@@ -13,7 +15,8 @@
 | **Audit Focus**         | Data collection, processing, sharing, security, retention and user control |
 
 
-### Requirements
+## Requirements
+
 - Computer/laptop with internet connection
 - Web browser
 - Meta's official website
@@ -22,7 +25,8 @@
 - Basic knowledge of data privacy principles
 - Data privacy audit checklist/table
 
-### Procedure
+## Procedure
+
 1. Open Meta's official website and locate its privacy-related information.
 2. Review Meta's Privacy Policy and privacy/security documentation.
 3. Identify the categories of personal data collected by Meta.
@@ -35,7 +39,7 @@
 10. Record the observations and classify the identified risks as Low, Medium or High.
 11. Provide recommendations for reducing the identified privacy risks.
 
-### Observation Table
+## Observation Table
 
 | S. No. | Audit Area               | Observation                                                                                                       | Potential Concern                                                                                    | Risk            |
 | -----: | ------------------------ | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | --------------- |
@@ -54,7 +58,8 @@
 
 Meta states that it provides tools including Privacy Checkup, Accounts Center, Off-Facebook Activity, advertising controls, and data access/deletion mechanisms.
 
-### Privacy Risks Identified
+## Privacy Risks Identified
+
 1. **Excessive Data Collection** - Processing large amounts of personal and behavioral information increases the potential impact of unauthorized access or misuse.
 2. **Behavioral Profiling** - User activity can contribute to personalized experiences and advertising, creating risks related to extensive profiling and loss of user control.
 3. **Third-Party Data Sharing** - Data received from or shared with external businesses, developers and services creates additional privacy and security dependencies.
@@ -63,7 +68,8 @@ Meta states that it provides tools including Privacy Checkup, Accounts Center, O
 6. **Lack of User Understanding** - The complexity of privacy policies and settings can make it difficult for users to understand exactly how their information is processed.
 7. **Data Retention** - Information retained for longer than necessary can increase the potential consequences of unauthorized access or security incidents.
 
-### Results
+## Results
+
 The audit identified several significant privacy risks, particularly in the areas of:
 - Large-scale data collection
 - Behavioral profiling
@@ -75,7 +81,8 @@ The audit identified several significant privacy risks, particularly in the area
 
 Meta provides various privacy and security controls to users, but continuous monitoring, stronger data minimization, improved transparency and strict third-party controls are important for reducing privacy risks.
 
-### Recommendations
+## Recommendations
+
 - Implement stronger data minimization practices.
 - Improve transparency of data collection and processing.
 - Provide simpler and more granular privacy controls.
@@ -85,7 +92,8 @@ Meta provides various privacy and security controls to users, but continuous mon
 - Encourage and strengthen two-factor authentication.
 - Conduct periodic privacy and security audits.
 
-### Conculusion
+## Conculusion
+
 The audit concludes that Meta has established various mechanisms for protecting and managing user privacy, including privacy settings, data access and deletion tools, advertising controls and security features.
 
 However, because Meta's platforms process large volumes of personal, social and behavioral information, they face significant privacy risks. Effective data minimization, transparent consent mechanisms, strong security controls, careful third-party management and regular privacy audits are necessary to protect users' personal information.
